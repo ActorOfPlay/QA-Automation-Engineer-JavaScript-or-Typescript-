@@ -1,5 +1,5 @@
-import { laphilSections } from '../support/laphineSectionsPageObj';
-import { laphilOrder } from '../support/laphinOrderPageObj';
+import { laphilSections } from '../support/laphilSectionsPageObj.js';
+import { laphilOrder } from '../support/laphilOrderPageObj.js';
 
 describe('User on concert hall page', () => {
   before('Visit the concert hall page', () => {

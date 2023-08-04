@@ -1,4 +1,4 @@
-import { LaphilGeneral } from './laphinGeneralPageObj';
+import { LaphilGeneral } from './laphilGeneralPageObj';
 
 export class LaphilOrder extends LaphilGeneral {
   clickTheSkipDonationButton() {

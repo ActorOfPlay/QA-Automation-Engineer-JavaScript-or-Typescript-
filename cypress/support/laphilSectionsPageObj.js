@@ -1,4 +1,4 @@
-import { LaphilGeneral } from './laphinGeneralPageObj';
+import { LaphilGeneral } from './laphilGeneralPageObj';
 
 export class LaphilSections extends LaphilGeneral {
   getTheSelectedSeat() {
