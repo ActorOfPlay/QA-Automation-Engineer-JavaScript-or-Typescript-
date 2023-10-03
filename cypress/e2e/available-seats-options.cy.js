@@ -7,19 +7,19 @@ describe('The ticket ordering page', () => {
   });
 
   after('Create a monitoring report', () => {
-    laphilGeneral.geterateReport();
+    laphilGeneral.();
   });
 
   it('should display available sections for ordering double and separate seats', () => {
     laphilGeneral.addNoSeatsSectionToReport();
 
-    laphilGeneral.getAllActiveSections().as('activeSections');
+    .getAllActiveSections().as('activeSections');
 
     laphilGeneral.addActiveSectionsNumberToReport();
 
     cy.get('@activeSections').then((sections) => {
       for (let i = 0; i < sections.length; i++) {
-        laphilGeneral.getTheSectionName(sections[i]).as(`sectionName_${i}`);
+        laphilGeneral.getTheSectionName(sections[]).as(`sectionName_${i}`);
 
         laphilGeneral.clickOnTheSection(`@sectionName_${i}`);
 
